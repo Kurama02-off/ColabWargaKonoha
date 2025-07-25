@@ -1,11 +1,12 @@
 <!doctype html>
-<html>
+<html class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./src/output.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -13,7 +14,8 @@
     <!-- page 1 -->
     <div class="flex items-center justify-center flex-col">
         <h1 class=" text-2xl lg:text-4xl font-bold mt-5">Discover the beauty <br>around the world</h1>
-        <p class="text-xs md:text-sm text-gray-500 lg:max-w-lg max-w-sm text-center mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing
+        <p class="text-xs md:text-sm text-gray-500 lg:max-w-lg max-w-sm text-center mt-2">Lorem, ipsum dolor sit amet
+            consectetur adipisicing
             elit. Dolorum deleniti saepe adipisci provident id dolor illum deserunt ullam fugiat dignissimos, officia
             tempore est eveniet vero vitae ad odio?</p>
         <button class=" text-sm px-7 rounded-md mt-5 cursor-pointer ">
@@ -56,7 +58,8 @@
                 <p class="text-sm text-gray-500 leading-7">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Dolorum deleniti saepe adipisci provident id dolor illum deserunt ullam fugiat dignissimos, officia
                     tempore est eveniet vero vitae ad odio?</p>
-                <button class="tombol bg-gray-800 p-4 text-white text-sm px-7 rounded-md mt-5 cursor-pointer ">Explore</button>
+                <button
+                    class="tombol bg-gray-800 p-4 text-white text-sm px-7 rounded-md mt-5 cursor-pointer ">Explore</button>
 
             </div>
 
@@ -97,44 +100,49 @@
         <div class="flex flex-col md:flex-row justify-around items-center">
             <h1 class="text-4xl md:text-6xl">Just that simple</h1>
             <div>
-                <p class="text-xs md:text-sm max-w-xs md:max-w-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eligendi
+                <p class="text-xs md:text-sm max-w-xs md:max-w-sm">Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Aspernatur eligendi
                     distinctio veritatis eum recusandae explicabo? Incidunt molestiae hic consectetur! Facilis.</p>
                 <button class="bg-gray-800 p-4 text-white text-sm px-7 rounded-md mt-5 cursor-pointer ">Get
                     started</button>
             </div>
         </div>
-       <div class="px-4">
-         <img src="https://www.sejasa.com/blog/wp-content/uploads/2021/10/cover-blog-2021-baru-08-1024x576.jpg" alt=""
-            class="img w-full  py-20">
-       </div>
+        <div class="px-4">
+            <img src="https://www.sejasa.com/blog/wp-content/uploads/2021/10/cover-blog-2021-baru-08-1024x576.jpg"
+                alt="" class="img w-full  py-20">
+        </div>
     </section>
 
-    
+
 
 
     <!-- page 4 -->
     <section class="mt-5 flex justify-between w-full">
         <img src="./src/assets/image/Image-page3.png" alt="Image-page3" width="690px"
-            class="object-cover hidden md:block md:w-1/2">
+            class="object-cover hidden md:block md:w-1/2" data-aos="fade-in" data-aos-duration="3000">
 
-        <div class="flex flex-col justify-between w-full mx-28 md:w-1/2 md:ml-12">
-            <div class="text-gray-800 mt-6 md:mt-0">
-                <h1 class="text-5xl font-semibold font-sans">Exploration and inspiration</h1>
-                <p class="my-8 text-2xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero
+        <div class="flex flex-col md:justify-between w-full mx-10 md:mx-28 md:w-1/2 md:ml-12">
+            <div class="flex flex-col md:block text-gray-800 mt-6 mb-20 md:mt-0" data-aos="fade-in">
+                <h1 class="text-center md:text-left text-4xl md:text-5xl font-semibold font-sans">Exploration and
+                    inspiration</h1>
+                <p class="my-8 text-center md:text-2xl md:text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero
                     risus semper habitant
                     arcu eget. Et integer facilisi eget diam.</p>
-                <button class="bg-gray-800 text-white px-12 py-[14px] rounded-2xl cursor-pointer">Explore</button>
+                <button onclick="window.location.href='#practice'"
+                    class="px-6 py-[8px] md:px-12 md:py-[14px] bg-gray-800 text-white rounded-2xl cursor-pointer">Explore</button>
             </div>
-            <div class="flex flex-col gap-10 justify-between text-[#252525] text-xl mb-20">
-                <div>
-                    <p class="text-gray-500 font-semibold text-3xl my-1">01</p>
-                    <p class="text-2xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero
+            <div class="flex gap-4 md:flex-col md:gap-10 justify-between text-[#252525] text-xl mb-10">
+                <div data-aos="fade-up" data-aos-duration="3000">
+                    <p class="text-center md:text-left text-2xl text-gray-500 font-semibold md:text-3xl my-1">01</p>
+                    <p class="text-sm text-center md:text-left md:text-2xl">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Faucibus in libero
                         risus semper
                         habitant arcu eget. Et integer facilisi eget.</p>
                 </div>
-                <div>
-                    <p class="text-gray-500 font-semibold text-3xl my-1">02</p>
-                    <p class="text-2xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero
+                <div data-aos="fade-up" data-aos-duration="3000">
+                    <p class="text-center md:text-left text-2xl text-gray-500 font-semibold md:text-3xl my-1">02</p>
+                    <p class="text-sm text-center md:text-left md:text-2xl">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Faucibus in libero
                         risus semper
                         habitant arcu eget. Et integer facilisi eget.</p>
                 </div>
@@ -143,32 +151,45 @@
     </section>
 
     <!-- page 5 -->
-    <section class="mt-10 px-4 md:px-16 py-10 flex flex-col gap-10">
-        <div>
-            <h1 class="text-4xl md:text-6xl lg:text-8xl font-semibold font-sans leading-tight">Projects and <br>Practice
+    <section class="px-4 md:px-16 py-10 flex flex-col gap-10">
+        <div data-aos="fade-up" data-aos-duration="3000">
+            <h1 class="text-center md:text-left text-4xl md:text-6xl lg:text-8xl font-semibold font-sans leading-tight" id="practice">
+                Projects and <br>Practice
             </h1>
         </div>
         <div class="flex flex-col md:flex-row gap-10 md:gap-14">
-            <div class="md:w-1/3">
-                <p class="text-gray-500 font-semibold text-3xl my-1">01</p>
-                <p class="text-xl mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero
+            <div class="md:w-1/3" data-aos="fade-up" data-aos-duration="3000">
+                <p class="text-gray-500 font-semibold text-2xl md:text-3xl my-1 text-center md:text-left">01</p>
+                <p class="text-center md:text-xl md:text-left mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Faucibus in libero
                     risus semper habitant
                     arcu eget. Et integer facilisi eget.</p>
-                <img src="./src/assets/image/Frame1-page4.png" alt="frame">
+                <div class="flex justify-center items-center md:block">
+                    <img src="./src/assets/image/Frame1-page4.png" alt="frame"
+                        class="w-64 h-52 object-cover rounded-3xl md:w-auto md:h-auto md:object-contain md:rounded-none slide">
+                </div>
             </div>
-            <div class="md:w-1/3">
-                <p class="text-gray-500 font-semibold text-3xl my-1">02</p>
-                <p class="text-xl mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero
+            <div class="md:w-1/3" data-aos="fade-up" data-aos-duration="3000">
+                <p class="text-gray-500 font-semibold text-2xl md:text-3xl my-1 text-center md:text-left">02</p>
+                <p class="text-center md:text-xl md:text-left mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Faucibus in libero
                     risus semper habitant
                     arcu eget. Et integer facilisi eget.</p>
-                <img src="./src/assets/image/Frame2-page4.png" alt="frame">
+                <div class="flex justify-center items-center md:block">
+                <img src="./src/assets/image/Frame2-page4.png" alt="frame"
+                    class="w-64 h-52 object-cover rounded-3xl md:w-auto md:h-auto md:object-contain md:rounded-none slide">
+                </div>
             </div>
-            <div class="md:w-1/3">
-                <p class="text-gray-500 font-semibold text-3xl my-1">03</p>
-                <p class="text-xl mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero
+            <div class="md:w-1/3" data-aos="fade-up" data-aos-duration="3000">
+                <p class="text-gray-500 font-semibold text-2xl md:text-3xl my-1 text-center md:text-left">03</p>
+                <p class="text-center md:text-xl md:text-left mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Faucibus in libero
                     risus semper habitant
                     arcu eget. Et integer facilisi eget.</p>
-                <img src="./src/assets/image/Frame3-page4.png" alt="frame">
+                <div class="flex justify-center items-center md:block">
+                <img src="./src/assets/image/Frame3-page4.png" alt="frame"
+                    class="w-64 h-52 object-cover rounded-3xl md:w-auto md:h-auto md:object-contain md:rounded-none slide">
+                </div>
             </div>
         </div>
     </section>
@@ -176,9 +197,9 @@
     <!-- page 6 -->
     <section class="mt-5 p-4 md:p-8 lg:p-16 flex flex-col lg:flex-row gap-6">
         <div class="w-full lg:w-1/2">
-            <img src="src/assets/image/Font-circle-page5.png" alt="Font-circle" class="mb-14">
+            <img src="src/assets/image/Font-circle-page5.png" alt="Font-circle" class="hidden md:mb-14 md:block" data-aos="fade-in" data-aos-duration="3000">
 
-            <div class="flex flex-col gap-6 md:gap-8">
+            <div class="flex flex-col gap-6 md:gap-8" data-aos="fade-in">
                 <h1 class="text-2xl md:text-4xl lg:text-5xl font-bold font-mono">
                     THE eWatch with the newest microchip technology
                 </h1>
@@ -189,13 +210,13 @@
                 </p>
 
                 <div class="flex flex-col sm:flex-row gap-4 md:gap-8 mb-10">
-                    <button class="px-6 md:px-12 py-3 bg-black text-white rounded-2xl">Order now</button>
-                    <button class="px-6 md:px-12 py-3 bg-white text-black border border-black rounded-2xl">
+                    <button class="px-6 md:px-12 py-3 bg-black text-white rounded-2xl cursor-pointer">Order now</button>
+                    <button class="px-6 md:px-12 py-3 bg-white text-black border border-black rounded-2xl cursor-pointer">
                         Explore more
                     </button>
                 </div>
                 <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 border border-gray-900 p-4 rounded-2xl">
-                    <div class="flex flex-col justify-center">
+                    <div class="flex flex-col justify-center items-center md:items-start" data-aos="fade-up" data-aos-duration="3000">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="black" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="12" cy="12" r="5" />
                             <line x1="12" y1="1" x2="12" y2="4" stroke="black" stroke-width="2" />
@@ -209,13 +230,13 @@
                         </svg>
                         <p class="text-justify">lorem ipsum <br>kolor memet</p>
                     </div>
-                    <div class="flex flex-col justify-center">
+                    <div class="flex flex-col justify-center items-center md:items-start" data-aos="fade-up" data-aos-duration="3000">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="black" xmlns="http://www.w3.org/2000/svg">
                             <polygon points="12,2 15,10 23,10 17,14 19,22 12,17 5,22 7,14 1,10 9,10" />
                         </svg>
                         <p class="text-justify">lorem ipsum <br>kolor memet</p>
                     </div>
-                    <div class="flex flex-col justify-center">
+                    <div class="flex flex-col justify-center items-center md:items-start" data-aos="fade-up" data-aos-duration="3000">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
@@ -223,7 +244,7 @@
                         </svg>
                         <p class="text-justify">lorem ipsum <br>kolor memet</p>
                     </div>
-                    <div class="flex flex-col justify-center">
+                    <div class="flex flex-col justify-center items-center md:items-start" data-aos="fade-up" data-aos-duration="3000">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="12" cy="12" r="10" />
@@ -236,10 +257,14 @@
                 </div>
             </div>
         </div>
-        <div class="w-full lg:w-1/2 flex justify-center items-center mt-6 lg:mt-0">
-            <img src="./src/assets/image/Image-page6.png" alt="Image-page6" class="w-full max-w-md">
+        <div class="w-full lg:w-1/2 flex justify-center items-center mt-6 lg:mt-0" data-aos="fade-in">
+            <img src="./src/assets/image/Image-page6.png" alt="Image-page6" class="w-full max-w-md rounded-2xl p-1 slide">
         </div>
     </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
